@@ -1,0 +1,59 @@
+
+<html> 
+<body> <style>
+h{color:purple;
+ Font-family:tarzen;
+font-size:40;
+}
+input[type=text],select, textarea { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+} 
+.child{
+margin:10px auto;
+color:purple;
+background-color:lightgreen;
+width: 80%;
+text-align:center;
+padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px 500px ; 
+    box-sizing: border-box;
+  
+}
+
+</style>
+</body> 
+  
+  <form   method="post" action="SecondServlet">
+<div class="child">
+<div align="left">
+<h>REGISTER FOR LORHAN.CORP</h> 
+</div>
+
+<br>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br><label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+<br><label for="user">Preferred username:</label>
+    <input type="text" id="user" name="u"  placeholder="Enter your username..">
+<br><label for="upword">Password:</label> 
+    <input type="Password" id="upword" name="password" placeholder="Enter your password..">
+
+<br><input type="submit" value="Submit">
+</div> 
+</form> 
+
+  </body>   
+</body> 
+</html> 
+ 
+ 
